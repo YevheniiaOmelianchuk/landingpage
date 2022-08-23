@@ -1,0 +1,353 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+h2 {
+  text-align: left;
+  color: #9db0d1;
+  font-size: 57px;
+  font-family: Arapey;
+  font-style: normal;
+  margin: 100px 340px 50px 340px;
+}
+
+.landingpage {
+  width: 1440px;
+  height: 2148px;
+  flex-grow: 0;
+  padding: 0px 0px;
+  background-color: #ffffff;
+}
+
+.paragraph {
+  margin: 0px 208px 50px 208px;
+  padding: 0px 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+.input {
+  margin: 0px 566px 50px 607px;
+}
+
+.button {
+  width: 270px;
+  height: 80px;
+  background-color: #ebac87;
+  border-color: #ebac87;
+  border-radius: 10px;
+  font-family: Arapey;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+ text-align: center;
+}
+
+.round {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9db0d1;
+}
+
+.union {
+  padding: 18px 15px 18px 15px;
+}
+
+
+
+.container {
+  display: flex;
+  margin-left: 129px;
+}
+
+.container .round {
+  flex: 0px 1px 300px;
+  margin: 0px 50px 0px 0px;
+}
+
+.text {
+  font-color: #033;
+  font-family: Verdana;
+  font-size: 20px;
+  margin-top: 18px;
+  margin-left: -35px;
+  margin-right: 50px;
+}
+
+.gradient {
+  background: url(../img/bg-clouds.png) repeat-x top / auto 200px,
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+  padding: 250px 120px 50px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.main-content {
+  width: 1440px;
+  height: 1047px;
+  background-color: #87c6eb;
+}
+
+.picture {
+  width: 350px;
+  height: 560px;
+  flex-grow: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-right: 75px;
+}
+
+.container {
+  display: flex;
+}
+
+.container.picture {
+  flex;
+}
+
+.elipse1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 20px 0px 10px 20px;
+  background-color: rgba(235, 172, 135, 0.4);
+  padding: 12px 20px;
+}
+
+.elipse2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 20px 0px 10px 20px;
+  background-color: rgba(235, 172, 135, 0.6);   
+  padding: 12px 20px;                                   
+}
+
+.elipse3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 20px 0px 10px 20px;
+  background-color: #ebac87;
+  padding: 12px 20px;
+}
+
+.rectangle {
+  width: 310px;
+  height: 310px;
+  margin: 0px 20px 20px 20px;
+  padding-top: -12px;
+  background-color: #ebac87
+}
+
+.number {
+  width: 20px;
+  height: 36px;
+  font-family: Verdana;
+  font-size: 30px;
+  color: #fff;
+} 
+
+.mountains {
+  width: 310px;
+  height: 310px;
+  flex-grow: 0;
+  margin: 0px 0 20px;
+  object-fit: contain;
+}
+
+.text1 {
+  width: 260px;
+  height: 120px;
+  flex-grow: 0;
+  margin: 20px 70px 20px 20px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.text3 {
+  width: 600px;
+  height: 132px;
+  margin: -10px 720px 40px 120px;
+  font-family: Arapey;
+  font-size: 40px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.text4 {
+  width: 600px;
+  height: 73px;
+  flex-grow: 0;
+  margin: 40px 0;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  margin-left: 120px;
+}
+
+.input2 {
+  
+}
+
+.button2 {
+  width: 220px;
+  height: 80px;
+  border-color: #fff;
+  border-radius: 10px;
+  font-family: Arapey;
+  color: #ebac87;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 120px;
+}
+
+
+.main-content2 {
+  background: url(../img/mountain4.png) no-repeat right bottom / auto 475px;
+  padding-top: 90px;
+  width: 1440px;
+  height: 485px;
+}
+
+.question-text {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ebac87;
+  border-color: #ebac87;
+  font-family: Verdana;
+  font-size: 60px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  margin-left: 1240px;
+  margin-top: -10px;
+}
+
+.question {
+  margin-top: -70px;
+}
+
+.button3 {
+  width: 267px;
+  height: 80px;
+  background-color: #ebac87;
+  border-color: #ebac87;
+  border-radius: 10px;
+  font-family: Arapey;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.nav1 {
+  width: 60px;
+  height: 60px;
+  margin: -80px 0px 0px 1140px;
+  padding: 18px;
+}
+
+.nav2 {
+  width: 60px;
+  height: 60px;
+  margin: -60px 0px 0px 1200px;
+  padding: 18px;
+}
+
+.nav3 {
+  width: 60px;
+  height: 60px;
+  margin: -60px 0px 0px 1260px;
+  padding: 18px;
+}
+
+
+
+
